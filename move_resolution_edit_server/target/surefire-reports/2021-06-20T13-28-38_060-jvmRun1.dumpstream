@@ -1,0 +1,29 @@
+# Created at 2021-06-20T13:30:09.332
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-06-20T13:30:09.353
+Unexpected IOException: 6,1,com.example.demo.DemoApplicationTests,daotest,null,null,null
+
+
+# Created at 2021-06-20T13:30:09.359
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.demo.DemoApplicationTests,null,null,null
+
+
+# Created at 2021-06-20T13:30:09.365
+Unexpected IOException with stream: 2021-06-20 13:30:09.364  INFO 24586 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2021-06-20T13:30:09.366
+Unexpected IOException with stream: 2021-06-20 13:30:09.365  INFO 24586 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+
+
+# Created at 2021-06-20T13:30:09.370
+Unexpected IOException with stream: 2021-06-20 13:30:09.370  INFO 24586 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+

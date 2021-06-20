@@ -1,4 +1,4 @@
 # moviefactory
 使用GlassFish消息队列服务器，使用两个程序进行交互。
-move_resolution_edit_server负责文件的上传和下载，和用户的交互
-movie_web_server负责文件的视频处理，处理成480p, 720p两种格式存储。
+movie_web_server负责文件的上传和下载，和用户的交互
+move_resolution_edit_server负责文件的视频处理，处理成480p, 720p两种格式存储。

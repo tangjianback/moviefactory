@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>node+html</title>
+    <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>
+</head>
+<body>
+    <div>增删改查的页面</div>
+
+    <div>
+        <div>
+        <!--        增加-->
+        <form action="User" method="post">
+            学号<input type="text" name="Sno" value=""><br>
+            姓名<input type="text" name="name" ><br>
+            性别<input type="text" name="gender" ><br>
+            生日<input type="text" name="born_data" ><br>
+            籍贯<input type="text" name="born_place" ><br>
+            学院<input type="text" name="academy" ><br>
+            <input type="submit" value="增加">
+        </form>
+        </div>
+        <div>
+            <!--        删除-->
+            <form action="User" method="delete">
+                学号<input type="text" name="Sno" ><br>
+                姓名<input type="text" name="name" ><br>
+                性别<input type="text" name="gender" ><br>
+                生日<input type="text" name="born_data" ><br>
+                籍贯<input type="text" name="born_place" ><br>
+                学院<input type="text" name="academy" ><br>
+                <input type="submit" value="删除">
+            </form>
+        </div>
+        <div>
+            <!--        修改-->
+            <form action="User" method="put">
+                学号<input type="text" name="Sno" ><br>
+                姓名<input type="text" name="name" ><br>
+                性别<input type="text" name="gender" ><br>
+                生日<input type="text" name="born_data" ><br>
+                籍贯<input type="text" name="born_place" ><br>
+                学院<input type="text" name="academy" ><br>
+                <input type="submit" value="修改">
+            </form>
+        </div>
+        <div>
+            <!--        查询-->
+            <form action="User" method="get">
+                学号<input type="text" name="Sno" th:value="${student?.Sno}"><br>
+                姓名<input type="text" name="name" th:value="${student?.name}"><br>
+                性别<input type="text" name="gender" th:value="${student?.gender}"><br>
+                生日<input type="text" name="born_data" th:value="${student?.born_data}"><br>
+                籍贯<input type="text" name="born_place" th:value="${student?.born_place}"><br>
+                学院<input type="text" name="academy" th:value="${student?.academy}"><br>
+                <input type="submit" value="查询">
+            </form>
+        </div>
+        <p >结果:<span th:text="${returnmessage}"></p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+com/ramostear/application/util/FileUtil.class
+com/ramostear/application/model/FileInfo.class
+com/ramostear/application/FileHandlingApplication.class
+com/ramostear/application/controller/FileController.class

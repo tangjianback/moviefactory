@@ -1,0 +1,28 @@
+# Created at 2021-06-20T13:31:18.873
+[SUREFIRE] std/in stream corrupted
+java.io.IOException: Command NOOP unexpectedly read Void data with length 4.
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:130)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2021-06-20T13:35:13.519
+Unexpected IOException: 6,1,com.example.demo.DemoApplicationTests,daotest,null,null,null
+
+
+# Created at 2021-06-20T13:35:13.523
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,com.example.demo.DemoApplicationTests,null,null,null
+
+
+# Created at 2021-06-20T13:35:13.536
+Unexpected IOException with stream: 2021-06-20 13:35:13.534  INFO 24756 --- [extShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+
+
+# Created at 2021-06-20T13:35:13.538
+Unexpected IOException with stream: 2021-06-20 13:35:13.537  INFO 24756 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+
+
+# Created at 2021-06-20T13:35:13.545
+Unexpected IOException with stream: 2021-06-20 13:35:13.544  INFO 24756 --- [extShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+
+
